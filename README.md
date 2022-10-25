@@ -20,14 +20,16 @@ Having entered the competition only one month prior to the deadline I ran out of
 I really enjoyed this competition, see you guys on the next one!
 
 
+
+
 UPDATE (25/10/22): 
 
 After doing some experiments with the Kendall Tau Loss approximation and the original Kendall Tau, I noticed a mistake in the training notebook that impairs the quality of the approximation across notebooks of different sizes. 
 
 Original:
 
-return 4 * (d2/ ((n*(n-1))))
+return 4 * (d2/ ((n * (n-1))))
 
 Improved: 
 
-return 4 * (d2/ (((n**2)*(n-1)))) 
+return 4 * (d2/ (((n**2) * (n-1)))) 
