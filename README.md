@@ -24,12 +24,12 @@ I really enjoyed this competition, see you guys on the next one!
 
 UPDATE (25/10/22): 
 
-After doing some experiments with the Kendall Tau Loss approximation and the original Kendall Tau, I noticed a mistake in the training notebook that impairs the quality of the approximation across notebooks of different sizes. 
+After doing some experiments with the Kendall Tau Loss approximation and the original Kendall Tau, I noticed that the quality of the approximation across notebooks of different sizes increases when using Spearman’s ρ directly. 
 
 Original:
 
 return 4 * (d2/ ((n * (n-1))))
 
-Improved: 
+Spearman’s ρ: 
 
 return 6 * (d2/ ((n * (n**2 -1)))) 
