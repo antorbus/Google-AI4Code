@@ -24,7 +24,7 @@ I really enjoyed this competition, see you guys on the next one!
 
 UPDATE (25/10/22): 
 
-After doing some experiments with the Kendall Tau Loss approximation and the original Kendall Tau, I noticed that the quality of the approximation across notebooks of different sizes increases when using Spearman’s ρ directly. 
+After doing some experiments with the Loss approximation and the Kendall Tau, I noticed that the quality of the approximation across notebooks of different sizes increases when using Spearman’s ρ directly. 
 
 Original:
 
