@@ -32,4 +32,4 @@ return 4 * (d2/ ((n * (n-1))))
 
 Improved: 
 
-return 4 * (d2/ ((n * (n**2 -1)))) 
+return 6 * (d2/ ((n * (n**2 -1)))) 
